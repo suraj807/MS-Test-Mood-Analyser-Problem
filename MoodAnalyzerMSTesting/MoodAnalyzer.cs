@@ -2,7 +2,14 @@
 {
     internal class MoodAnalyzer
     {
-        internal string AnalyzeMood(string message)
+        private string message;
+
+        public MoodAnalyzer(string message)
+        {
+            this.message = message;
+        }
+
+        internal string AnalyzeMood()
         {
             throw new NotImplementedException();
         }
